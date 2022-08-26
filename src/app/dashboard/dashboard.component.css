@@ -1,0 +1,150 @@
+.row2{
+    align-items: center;
+    
+}
+.one{
+    width: 600px;
+    height: 25px;
+    background-color: #03fcd7;
+    margin-top: 200px;
+}
+.one2{
+    width: 750px;
+    background-color: #0578ad;
+}
+
+.two{
+    width: 810px;
+    height: 25px; ;
+    background-color: #03fcd7;
+    margin-top: 50px;
+}
+.two22{
+    width: 400px;
+    background-color: #0578ad;
+}
+.three{
+    width: 580px;
+    background-color: #03fcd7;
+    margin-top: 50px;
+    height: 25px;
+
+}
+.three1{
+    width: 380px;
+    background-color: #0578ad;
+}
+.four{
+    width: 850px;
+    margin-top: 50px;
+    height: 25px;
+    background-color: #03fcd7;
+}
+.four1{
+    width: 740px;
+    background-color: #0578ad;
+}
+
+.five{
+    width: 300px;
+    margin-top: 50px;
+    height: 25px;
+    background-color:#03fcd7;
+}
+.five1{
+    width: 200px;
+    background-color: #0578ad;
+}
+
+.six{
+    width: 580px;
+    height: 25px;
+    background-color: #03fcd7;
+    margin-top: 50px;
+
+}
+.six1{
+    width: 600px;
+    background-color: #0578ad;
+}
+
+.seven{
+    width: 290px;
+    margin-top: 50px;
+    height: 25px;
+    background-color: #03fcd7;
+}
+.seven1{
+    width: 400px;
+    background-color: #0578ad;
+
+}
+
+.final{
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+}
+.se1{
+    width: 20px;
+    height: 20px;
+    background-color:#03fcd7;
+    margin-left: 10px;
+}
+.se2{
+    width: 20px;
+    height: 20px;
+    background-color: #0578ad;
+    margin-left: 10px;
+}
+
+.s1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: mediumpurple;
+    margin-left: 240px;
+    margin-top: 60px;
+}
+.s2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: mediumpurple;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+span {
+    height: 500px;
+    width: 50px;
+    display: inline-block;
+    text-align:center;
+    padding-top: 700px;
+    margin-left: 200px;
+    font-weight: bold;
+}
+
+span:before {
+    border-left: 1px solid black;
+    content: "";
+    display: block;
+    height: 200px;
+    left: 240px;
+    position: absolute;
+    top: 500px;
+    width: 50px;
+    z-index: 0;
+}
+
+span:after {
+    border-left: 1px solid black;
+    content: "";
+    display: block;
+    height: 200px;
+    left: 240px;
+    position: absolute;
+    top: 800px;
+    width: 50px;
+    z-index: 0;
+}

@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: oldlace;
+}
+
+
+#navbar{
+    background-color: silver;
+    height: 70px;
+}
+#navtext{
+    font-size: small;
+    font-weight: bold;
+    display: inline;
+    margin-left: 350px;
+    margin-top: 5px;
+   
+}
+#seicon{
+    margin-left: 500px;
+    font-size: 20px;
+}
+#logo{
+    font-size: 40px;
+    color: black;
+}

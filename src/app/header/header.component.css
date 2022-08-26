@@ -1,0 +1,49 @@
+nav{
+    height: 100%;
+}
+#navbar{
+    background-color: bisque;
+    /* basic drop shadow effect */
+    box-shadow: 0 0px 30px rgb(21, 170, 219);
+ 
+}
+h6{
+    text-shadow: red -2px 0,
+                 cyan   2px 0;
+    position: relative;
+    font-size: 30px;
+    color: aqua;
+    text-transform: uppercase;
+    border-bottom: 10px solid lightskyblue;
+}
+h6::before{
+    content: attr(loading-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    color: #18cdfa;
+    overflow: hidden;
+    border-bottom: 10px solid #811a85;
+    animation: Diversity 5s linear infinite;
+}
+@keyframes Diversity{
+    0% {
+        width: o;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.side-nav-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.side-nav-button:hover{
+    background-color:cornflowerblue;
+    border-radius: 30%;
+}

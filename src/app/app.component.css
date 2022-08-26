@@ -1,0 +1,38 @@
+app-header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 4rem;
+    z-index: 2;
+}
+main{
+    position: absolute;
+    width: 100%;
+    top: 4rem;
+    z-index: 1;
+}
+app-sidebar{
+    position: fixed;
+    left: 0rem;
+    width: 60px;
+    height: calc(100vh - 4rem);
+    background-color: bisque;
+    border-top: 1px solid white;
+    overflow-x: hidden;
+    white-space: nowrap;
+} 
+
+.display-area{
+    position: absolute;
+    left: 60px;
+    width: calc(100% - 250px);
+}
+
+.app-sidebar-open{
+    width: 150px;
+}
+
+.display-area-shrink{
+    width: calc(100% - 150px);
+    left: 150px;
+}
